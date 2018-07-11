@@ -20,6 +20,7 @@ export MEM_GB=${MEM_GB:-1}
 export DEFAULT_TTL=${DEFAULT_TTL:-30d}
 export STORAGE_GB=${STORAGE_GB:-4}
 export SERVICE_ACCESS_ADDRESS=${SERVICE_ACCESS_ADDRESS:-192.168.1.100}
+export MESH_SEED_ADDERSS_PORT_LIST=${MESH_SEED_ADDERSS_PORT_LIST}
 
 # Fill out conffile with above values
 if [ -f /etc/aerospike/aerospike.template.conf ]; then
